@@ -4,9 +4,9 @@ MCPE Cells Plugin for prison servers
 Download Below
 
 
-[![](https://poggit.pmmp.io/shield.state/CellPE)](https://poggit.pmmp.io/p/CellPE)
+[![](https://poggit.pmmp.io/shield.state/CellPE)](https://poggit.pmmp.io/ci/Crypt97/CellPE/~)
 
-[![](https://poggit.pmmp.io/shield.api/CellPE)](https://poggit.pmmp.io/p/CellPE)
+[![](https://poggit.pmmp.io/shield.api/CellPE)](https://poggit.pmmp.io/ci/Crypt97/CellPE/~)
 
 
 A small cell plugin for PocketMine & GeneisysPro It allows you to create many cells and let your players buy them with a command.
