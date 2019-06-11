@@ -61,7 +61,7 @@ class CellPE extends PluginBase{
 
     public function createTask(){
         $a = new ExpireTask($this);
-        $b = $this->getServer()->getScheduler()->scheduleRepeatingTask($a, 72000);
+        $b = $this->getScheduler()->scheduleRepeatingTask($a, 72000);
         $a->setHandler($b);
     }
 
