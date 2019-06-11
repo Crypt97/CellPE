@@ -68,6 +68,7 @@ class EventListener implements Listener{
                 }
                 else{
                     $event->setCancelled(true);
+                    $p->sendMessage($this->plugin->getMessage('cell.set.interact'));
                 }
             }
         }
@@ -125,6 +126,7 @@ class EventListener implements Listener{
             }
             else{
                 $event->setCancelled(true);
+                $p->sendMessage($this->plugin->getMessage('cell.set.break'));
             }
         }
     }
@@ -144,6 +146,7 @@ class EventListener implements Listener{
             }
             else{
                 $event->setCancelled(true);
+                $p->sendMessage($this->plugin->getMessage('cell.set.place'));
             }
         }
     }
